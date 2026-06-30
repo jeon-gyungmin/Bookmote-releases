@@ -21,7 +21,15 @@ No Google Play Services required — the core app has no Google/GMS dependencies
 (The optional voice-command feature uses Android's on-device speech recognizer, which
 may be missing on fully de-Googled devices; everything else is fully local.)
 
+## Updates
+
+Sideloaded builds **do not auto-update from the Play Store** — the APK here is signed
+with a different key than the Play Store copy, so Play won't update it. To get a new
+version, download the latest APK from [Releases](../../releases) and install over the
+old one (your settings are kept). Tip: press **Watch → Custom → Releases** on this
+repo to get notified of new versions.
+
 ## Easier option
 
-For most people, installing from the Play Store is simpler and gives automatic
-updates — just search **Bookmote**.
+If your device has the Play Store, installing from there is simpler and gives
+automatic updates — just search **Bookmote**.
