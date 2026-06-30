@@ -8,6 +8,9 @@ This repository hosts **only the installable APK** for each release. The app sou
 is closed; this is just a public download mirror so you can sideload on devices
 without the Play Store (e.g. de-Googled Android).
 
+> The "Source code (zip/tar.gz)" links that GitHub auto-adds to each release contain
+> only this README — not the app source. To install, download the `.apk` asset.
+
 ## Install
 
 1. Open [Releases](../../releases) and download the latest `Bookmote-vX.Y.Z.apk`.
