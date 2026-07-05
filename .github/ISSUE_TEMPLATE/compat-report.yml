@@ -1,0 +1,52 @@
+name: Compatibility report
+description: Report a device/app combination that works (or doesn't) with Bookmote
+title: "Compat report: "
+labels: ["compat-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping other readers! Your report goes into the public
+        compatibility list at https://jeon-gyungmin.github.io/Bookmote-releases/
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: The e-reader or tablet you paired Bookmote with
+      placeholder: e.g. Kobo Libra 2, BOOX Go 7, iPad Air
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: Reading app
+      description: The app you were reading in on that device
+      placeholder: e.g. Kindle, Apple Books, KOReader, RIDI
+    validations:
+      required: true
+  - type: dropdown
+    id: works
+    attributes:
+      label: Does page turning work?
+      options:
+        - "Yes — works out of the box"
+        - "Yes — after changing the key mapping"
+        - "Partially (some keys work)"
+        - "No"
+    validations:
+      required: true
+  - type: input
+    id: keymap
+    attributes:
+      label: Key mapping used
+      description: The key setting in Bookmote that worked (or that you tried)
+      placeholder: e.g. Arrow keys (default), PageUp/PageDown
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Quirks, setup steps, firmware version — anything future readers should know
+    validations:
+      required: false

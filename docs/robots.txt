@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jeon-gyungmin.github.io/Bookmote-releases/sitemap.xml
